@@ -1,0 +1,47 @@
+.Sidebar{
+    display: flex;
+    background-color: #ffd300;
+    padding-right: 5%;
+    flex-direction: column;
+}
+
+.logo {
+
+    margin-left: 12%;
+    margin-top: 35%;
+    height: 12rem;
+    flex-direction: column;
+    
+}
+.logo>img{
+    height: 200px;
+    margin:2%;
+}
+
+.subject {
+    font-size: xx-large;
+    font-weight:bolder;
+    margin: 2%;
+    padding: 1.5%;
+
+}
+.logo>div>span{
+    font-weight: lighter;
+    color: rgb(96, 93, 93);
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.arrow{
+
+background-color: black;
+height: 36px;
+width: 37px;
+border-radius: 50%;
+margin-top: 120%;
+margin-left:-54%;
+/* transition: hover; */
+}
+.arrow:hover{
+    cursor: pointer;
+}
+

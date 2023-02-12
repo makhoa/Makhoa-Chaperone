@@ -1,0 +1,136 @@
+.background{
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    flex-direction: column;
+
+}
+.Modalbackground{
+    background-color:#f5f8f9 ;
+    flex-direction: column;
+    height: 560px;
+    width: 800px;
+    float: right;
+    position: fixed;
+    top: 50%;
+    left: 56%;
+    transform: translate(-50%,-50%);
+    border-radius: 5%;
+    padding: 50px;
+    z-index: 1000;
+}
+
+.input-container{
+    height: 600px;
+}
+
+.Modalclose{
+    margin-left: 95%;
+    margin-top: -1%;
+}
+
+.footer{
+    margin-left: 58%;
+    margin-top: 10%;
+}
+
+.footer-cancel{
+    margin-left: 40%;
+    border-color: aliceblue;
+    padding: 2px;
+    font-style: inherit;
+    margin-bottom: -11%;
+    display: block;
+}
+
+.footer-save{
+    margin-left: 60%;
+    background-color: aquamarine;
+    border-color: aliceblue;
+    padding:4px;
+    color: rgb(157, 159, 160);
+}
+
+.Modalclose{
+    border-color: aliceblue;
+}
+
+.inline{
+    
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.col-25{
+    width: 25%;
+    padding: 5px;
+    float: left;
+}
+
+.col-75{
+    width: 75%;
+    padding: 10px;
+    margin-left: -20%;
+}
+
+input[type=text] ,[type=alphanumeric],[type=date],[type=number]{
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin-left: 20%;
+  }
+
+  input[type=radio]{
+    margin-left: 10px;
+  }
+ 
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+
+  .inline:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .btn {
+    border:  solid black;
+    background-color: white;
+    color: black;
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: -40%;
+  }
+
+  .success {
+    border-color: #04AA6D;
+    color: green;
+    margin-left: 5px;
+  }
+  
+  .success:hover {
+    background-color: #07d695;
+    color: white;
+  }
+
+  .danger {
+    border-color: #f44336;
+    color: red;
+    margin-right: 5px;
+  }
+  
+  .danger:hover {
+    background: #f44336;
+    color: white;
+  }
+

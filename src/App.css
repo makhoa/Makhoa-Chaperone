@@ -1,0 +1,27 @@
+.App {
+  background:linear-gradient (
+    106.37deg,
+    #de8b1f 29.63%
+    #e8494e  51.55%
+    #f32ce9 90.85%
+  ) !important;
+  text-align: center;
+  font-family: 'Gentium Book Plus', serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.AppGlass{
+  display: grid;
+  height: 96%;
+  width: 94%;
+  border-radius: 2rem;
+  background-color: var(--glass);
+  overflow: hidden;
+  grid-template-columns: 35%  auto ;
+  
+
+}
